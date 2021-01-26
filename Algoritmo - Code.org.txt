@@ -1,0 +1,228 @@
+Site: https://studio.code.org/s/mc/stage/1/puzzle/1
+
+Etapa 1: Escolher personagem
+
+Etapa 2: Madeira é um recurso muito importante. 
+Muitas coisas são feitas com ela. 
+Ande até a árvore e use o comando "destruir bloco" para derrubá-la.
+
+Código:
+
+moveForward();
+moveForward();
+destroyBlock();
+
+Etapa 3: Hora de tosquiar ovelhas! 
+Use o comando "tosquiar" para obter lã das duas ovelhas.
+
+Código:
+
+moveForward();
+moveForward();
+shear();
+turnRight();
+moveForward();
+shear();
+
+Etapa 4: Precisamos construir uma casa antes que o sol se ponha.
+Casas utilizam muita madeira. Corte todas as 3 árvores.
+
+Código:
+
+moveForward();
+moveForward();
+moveForward();
+destroyBlock();
+turnLeft();
+moveForward();
+moveForward();
+moveForward();
+moveForward();
+destroyBlock();
+turnLeft();
+
+
+Etapa 5: Toda casa começa com uma parede. 
+Construa a primeira parte da sua casa colocando os comandos "colocar" e "andar à frente" dentro do loop de repetição.
+
+Código:
+
+for (var count = 0; count < 4; count++) {
+  placeBlock("planksBirch");
+  moveForward();
+}
+
+Etapa 6: Selecionar o modelo de casa.
+Construa o resto da sua casa com qualquer material que quiser. 
+O comando "repita" vai ser bem útil.
+
+Código:
+
+for (var count = 0; count < 3; count++) {
+  moveForward();
+  placeBlock("planksBirch");
+}
+turnRight();
+for (var count2 = 0; count2 < 3; count2++) {
+  placeBlock("planksBirch");
+  moveForward();
+}
+turnRight();
+for (var count3 = 0; count3 < 3; count3++) {
+  placeBlock("planksBirch");
+  moveForward();
+}
+turnRight();
+
+
+Etapa 7:É sempre bom pensar no futuro. 
+Plante colheitas nos dois lados da água para você não passar fome depois.
+
+Código:
+
+for (var count = 0; count < 6; count++) {
+  plantCrop();
+  moveForward();
+}
+turnRight();
+moveForward();
+moveForward();
+turnRight();
+for (var count2 = 0; count2 < 7; count2++) {
+  plantCrop();
+  moveForward();
+
+Etapa 8: Não é uma boa ideia topar com um Creeper. 
+Passe com cuidado pelos Creepers e chegue na sua casa em segurança.
+
+Código:
+
+turnLeft();
+for (var count = 0; count < 3; count++) {
+  moveForward();
+}
+turnRight();
+moveForward();
+turnLeft();
+moveForward();
+turnRight();
+moveForward();
+
+Etapa 9: Você encontrará os recursos mais valiosos no subterrâneo, mas pode ficar escuro lá dentro.
+Coloque pelo menos 2 tochas e minere pelo menos 2 carvões.
+
+Código:
+
+turnRight();
+moveForward();
+placeTorch();
+turnLeft();
+for (var count = 0; count < 3; count++) {
+  moveForward();
+}
+turnRight();
+placeTorch();
+turnRight();
+moveForward();
+turnLeft();
+destroyBlock();
+
+Etapa 10: Não é uma boa ideia tentar andar sobre lava incandescente. 
+Coloque os paralelepípedos para criar uma ponte, depois minere pelo menos dois dos blocos de ferro.
+
+Código:
+
+moveForward();
+placeBlockAhead("cobblestone");
+moveForward();
+for (var count = 0; count < 3; count++) {
+  destroyBlock();
+  moveForward();
+}
+
+Etapa 11: Há lava escondida sob alguns destes blocos, que você precisará cobrir antes de avançar. 
+Um comando "se" será útil aqui. Adicione um comando "andar à frente" no local correto para minerar estes blocos.
+
+Código:
+
+for (var count = 0; count < 7; count++) {
+  destroyBlock();
+  ifLavaAhead(function() {
+    placeBlockAhead("cobblestone");
+  });
+  moveForward();
+}
+
+Etapa 12:Agora, a situação complicou um pouco. 
+Minere 3 redstone, mas não caia na lava. Use um comando "se" para colocar paralelepípedos sobre qualquer lava que você descobrir.
+
+Código:
+
+turnLeft();
+for (var count = 0; count < 2; count++) {
+  ifLavaAhead(function() {
+    placeBlockAhead("cobblestone");
+    moveForward();
+  });
+}
+destroyBlock();
+moveForward();
+turnRight();
+for (var count2 = 0; count2 < 3; count2++) {
+  moveForward();
+  ifLavaAhead(function() {
+    placeBlockAhead("cobblestone");
+
+Etapa 13:Ótimo trabalho! Você coletou vários recursos e construiu uma casinha modesta. 
+Agora, construa o trilho desde a borda do mapa até a porta da sua casa. 
+
+Código:
+turnRight();
+for (var count = 0; count < 6; count++) {
+  placeBlock("rail");
+  moveForward();
+}
+turnRight();
+for (var count2 = 0; count2 < 6; count2++) {
+  placeBlock("rail");
+  moveForward();
+}
+
+Etapa 14: Parabéns! Você concluiu todas as nossas tarefas! 
+Agora, minere, construa e crie algo único, usando tudo que você já aprendeu.
+
+Código:
+
+turnLeft();
+for (var count = 0; count < 2; count++) {
+  moveForward();
+}
+destroyBlock();
+moveForward();
+destroyBlock();
+moveForward();
+turnRight();
+moveForward();
+destroyBlock();
+turnLeft();
+ifBlockAhead("water", function() {
+  placeBlockAhead("bedrock");
+  moveForward();
+});
+turnLeft();
+for (var count2 = 0; count2 < 3; count2++) {
+  ifBlockAhead("water", function() {
+    placeBlockAhead("bedrock");
+    moveForward();
+  });
+}
+turnLeft();
+destroyBlock();
+turnRight();
+ifBlockAhead("water", function() {
+  placeBlockAhead("bedrock");
+});
+turnRight();
+moveForward();
+for (var count3 = 0; count3 < 3; count3++) {
+  moveForward();
