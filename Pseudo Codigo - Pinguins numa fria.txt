@@ -1,0 +1,27 @@
+SITE: https://rachacuca.com.br/jogos/pinguins-numa-fria/
+
+IINICIO DO JOGO
+
+Filhote azul sobe no gelo
+Pai sobre no gelo
+Atravessa
+Pai azul desce do gelo
+Atravessa
+Filhote vermelho sobe no gelo
+Atravessa
+Filhote azul desce do gelo
+Atravessa
+Pai vermelho sobre no gelo
+Atravessa
+Pai vermelho desce do gelo
+Atravessa
+Filhote verde sobre no gelo
+Atravessa
+Filhote vermelho desce do gelo
+Atravessa
+Pai verde sobe no gelo
+Atravessa
+Pai verde desce no gelo
+Filhote verde desce do gelo
+
+FIM DO JOGO
