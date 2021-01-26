@@ -1,0 +1,89 @@
+Inicio-Dia
+	Acordar
+	Desligar Despertador
+	Verificar Celular
+	Levantar
+	Abrir a porta do quarto
+	Sair do quarto
+	Entrar no banheiro
+	Fechar Porta
+	Usar o banheiro
+	Lavar as mãos
+	Lavar o rosto
+	Escovar os dentes
+	Secar o rosto
+	Sair do banheiro
+	Entrar na cozinha
+	Preparar café da manhã
+	Tomar café da manhã
+	Limpar cozinha
+	Sair da cozinha
+	Entrar no quarto
+	Trocar de roupa
+	Sair do quarto
+	Entrar na sala
+	Ligar o computador
+	Sentar
+	Verificar e-mails
+	Trabalhar
+	Beber agua
+	Levantar
+	Usar o banheiro
+	Sentar
+	Trabalhar
+	Levantar
+	Sair da sala
+	Entrar na cozinha
+	Fazer almoço
+	Almoçar
+	Limpar a cozinha
+	Sair da cozinha
+	Entrar no banheiro
+	Escovar os dentes
+	Sair do banheiro
+	Entrar no quarto
+	Deitar 
+	Dormir
+	Acordar
+	Desligar Despertador
+	Verificar Celular
+	Levantar
+	Abrir a porta do quarto
+	Sair do quarto
+	Entrar na Sala
+	Sentar 
+	Trabalhar
+	Beber agua
+	Levantar
+	Usar o banheiro
+	Sentar 
+	Trabalhar
+	Beber agua
+	Levantar
+	Usar o banheiro
+	Sentar 
+	Trabalhar
+	Beber agua
+	Levantar
+	Usar o banheiro
+	Sentar 
+	Encerrar o trabalho
+	Verificar e-mails
+	Desligar computador
+	Levantar
+	Sair da sala
+	Entrar na cozinha
+	Fazer jantar
+	Jantar
+	Limpar cozinha
+	Sair da cozinha
+	Entrar no quarto
+	Deitar
+	Verificar celular
+	Dormir
+Fim-Dia
+
+
+
+
+	
