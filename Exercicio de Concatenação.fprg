@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Krol"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-02-06 01:35:28 "/>
+        <attribute name="created" value="S3JvbDtLUk9MLVBDOzIwMjEtMDItMDY7IjAxOjEzOjI2ICI7MjA5Mw=="/>
+        <attribute name="edited" value="S3JvbDtLUk9MLVBDOzIwMjEtMDItMDY7IjAxOjM1OjI4ICI7MTY7MjI2MQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Nome" type="String" array="False" size=""/>
+            <declare name="N1, N2, N3, N4, Media" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite seu Nome:&quot;" newline="True"/>
+            <input variable="Nome"/>
+            <input variable="N1"/>
+            <input variable="N2"/>
+            <input variable="N3"/>
+            <input variable="N4"/>
+            <assign variable="Media" expression="(N1+N2+N3+N4)/4"/>
+            <output expression="&quot;O seu nome &#233;: &quot; &amp; Nome &amp; &quot; Seu media &#233;: &quot;&amp; Media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
