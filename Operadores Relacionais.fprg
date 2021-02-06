@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Krol"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-02-06 12:18:30 "/>
+        <attribute name="created" value="S3JvbDtLUk9MLVBDOzIwMjEtMDItMDY7IjEyOjE0OjU0ICI7MjA5Nw=="/>
+        <attribute name="edited" value="S3JvbDtLUk9MLVBDOzIwMjEtMDItMDY7IjEyOjE2OjM1ICI7MTtLcm9sO0tST0wtUEM7MjAyMS0wMi0wNTsiMTE6NTc6MTUgIjtUb21hZGEgZGUgZGVjaXNhbyBlIGV4cHJlc3NvZXMuZnByZzs3NzYx"/>
+        <attribute name="edited" value="S3JvbDtLUk9MLVBDOzIwMjEtMDItMDY7IjEyOjE4OjMwICI7MzsyMjA1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B, C" type="Integer" array="False" size=""/>
+            <assign variable="A" expression="1"/>
+            <assign variable="B" expression="1"/>
+            <assign variable="C" expression="3"/>
+            <output expression="A&gt;3" newline="True"/>
+            <output expression="A&lt;3" newline="True"/>
+            <output expression="A==B" newline="True"/>
+            <output expression="A&lt;=B" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

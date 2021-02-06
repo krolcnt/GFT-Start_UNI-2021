@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Krol"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-02-06 12:34:07 "/>
+        <attribute name="created" value="S3JvbDtLUk9MLVBDOzIwMjEtMDItMDY7IjEyOjIyOjQ2ICI7MjA5Nw=="/>
+        <attribute name="edited" value="S3JvbDtLUk9MLVBDOzIwMjEtMDItMDY7IjEyOjI0OjA5ICI7MTtLcm9sO0tST0wtUEM7MjAyMS0wMi0wNTsiMTE6NTc6MTUgIjtUb21hZGEgZGUgZGVjaXNhbyBlIGV4cHJlc3NvZXMuZnByZzs3NzYx"/>
+        <attribute name="edited" value="S3JvbDtLUk9MLVBDOzIwMjEtMDItMDY7IjEyOjM0OjA3ICI7NTsyMjA5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Cliente" type="String" array="False" size=""/>
+            <declare name="Cartao" type="Boolean" array="False" size=""/>
+            <declare name="Numero" type="Integer" array="False" size=""/>
+            <input variable="Cliente"/>
+            <input variable="Cartao"/>
+            <if expression="Cartao">
+                <then>
+                    <input variable="Numero"/>
+                </then>
+                <else>
+                    <output expression="&quot;Infelizmente s&#243; aceitamos compras com cart&#227;o de cr&#233;dito.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
